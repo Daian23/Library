@@ -1,0 +1,40 @@
+<div th:fragment="navbar">
+    <ul class="navbar fixed-top justify-content-center nav-tabs nav navbar-light" style="background-color: #fff ">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Inicio</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Autor
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/autor/registro">Añadir Autor</a>
+              <a class="dropdown-item" href="/autor/listaAutor">Listar Autor</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Editorial
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/editorial/registro">Añadir Editorial</a>
+              <a class="dropdown-item" href="#">Listar Editorial</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Libro
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/libro/registro">Añadir Libro</a>
+              <a class="dropdown-item"  href="/libro/listaLibro">Listar Libro</a>
+            </div>
+        </li>
+    </ul>
+</div>
+    
+        <!--<form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </ul>-->
